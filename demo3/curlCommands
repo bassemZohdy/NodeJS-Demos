@@ -1,0 +1,3 @@
+curl http://localhost:3000/user
+curl http://localhost:3000/user/{id} -X DELETE
+curl http://localhost:3000/user -H "Content-Type: application/json" -d '{"firstName":"bassem","lastName":"zohdy","enabled":true}'
